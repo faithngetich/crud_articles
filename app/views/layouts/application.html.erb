@@ -15,6 +15,9 @@
         <%= content_tag :div, msg, id: "flash_#{name}" %>
       <% end %>
       <div id="user_header">
+        <p>
+        Welcome to my App
+        </p>
         <% if logged_in? %>
           <%= link_to 'Logout', logout_path %>
         <% else %>
